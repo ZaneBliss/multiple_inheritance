@@ -1,7 +1,7 @@
 from .animal import Animal
 from ..movements import Walking
 
-class Llama(Animal, Animal):
+class Llama(Animal, Walking):
 
     def __init__(self, name, species, shift, food):
         Animal.__init__(self, name, species, food)
